@@ -1,0 +1,114 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta name="Description" content="This is the profile page of Clovis Fritzen, a Brazilian electronics technician, DIY advocate, maker, and technology lover. I specialize in electronics and embedded systems writing - tutorials, videos, blog posts.">
+<meta name="Keywords" content="clovis fritzen, fritzen, fritzenlab, fritzenmaker, fritzen lab, fritzen maker, diy, maker movement, electronics blog, diy blog, maker blog, brazilian maker, brazilian blog, technology in brazil, github">
+<meta name="author" content="Clovis Fritzen">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Clovis Fritzen profile page</title>
+
+<link rel="stylesheet" type="text/css" href="CSSstyle.css">
+<link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
+</head>
+<body onload="load_home()">
+
+<!-- Facebook Plugin requires this script -->
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/pt_BR/sdk.js#xfbml=1&version=v2.9";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+<!-- End of Facebook required script -->
+
+<script>
+function load_home() {
+     document.getElementById("contentContainer").innerHTML='<embed id="contentEmbed" src="homeContent.html"></embed>';
+}
+
+function load_whoIam() {
+     document.getElementById("contentContainer").innerHTML='<embed id="contentEmbed" src="whoIam.html"></embed>';
+}
+function load_education() {
+     document.getElementById("contentContainer").innerHTML='<embed id="contentEmbed" src="education.html"></embed>';
+}
+function load_currentWork() {
+     document.getElementById("contentContainer").innerHTML='<embed id="contentEmbed" src="currentWork.html"></embed>';
+}
+function load_previousWork() {
+     document.getElementById("contentContainer").innerHTML='<embed id="contentEmbed" src="previousWork.html"></embed>';
+}
+
+</script>
+<div class="wrapper">
+	<div class="box socialLinksTopMenu">
+		<ul>
+  		<li><a href="https://www.facebook.com/clovis.fritzen" target="_blank">my Facebook</a></li>
+  		<li><a href="https://twitter.com/TheFritzenMaker" target="_blank">my Twitter</a></li>
+  		<li><a href="https://github.com/clovisf/" target="_blank">my Github</a></li>
+  		<li><a href="http://www.FritzenMaker.com" target="_blank">my Blog</a></li>
+		</ul>
+	</div>
+	<div class="box logoTopMenu">
+	<img src="Clovis-Fritzen_Profile-pic.jpg" id="logoImg" alt="My profile picture" style="height: 100%; width: 100%; object-fit: contain">
+	</div>
+        <div class="box nameTopMenu">
+	<h1>Profile of Clovis Fritzen</h1>
+	<h3>Info about Clovis Fritzen, Brazilian electronics DIY/maker</h3>
+	</div>
+        <div class="box menuTopMenu">
+		<ul>
+  		<li><a href="#" onclick="load_home()">Home</a></li>
+		<li><a href="#" onclick="load_whoIam()">Who am I</a></li>
+  		<li><a href="#" onclick="load_education()">Education</a></li>
+  		<li><a href="#" onclick="load_currentWork()">Current work</a></li>
+  		<li><a href="#" onclick="load_previousWork()">Previous work</a></li>
+		<li><a href="http://www.FritzenMaker.com" target="_blank">My Blog</a></li>
+		</ul>
+	</div>
+	<div class="box contentInfo"><p>This is an ongoing project, under construction!</p></div>
+	<div class="box contentContainer" id="contentContainer">
+		<!-- <iframe id="iframeContent">Your browser does not suppor IFRAME tag :-(</iframe>	-->
+	</div>
+	<div class="box socialContentContainer">
+		
+	</div>
+	<div class="box adUnderContent">
+		<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- GitHub-Profile-AdUnderContent -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-2056991064526745"
+     data-ad-slot="5186793912"
+     data-ad-format="auto"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+	</div>
+	<div class="box waitingBox">
+		<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- GitHub-Profile-waitingBox -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-2056991064526745"
+     data-ad-slot="6663527116"
+     data-ad-format="auto"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+	</div>
+	<div class="box sideMenu">
+		<div class="fb-page" data-href="https://www.facebook.com/fritzeneletronicos/" data-tabs="timeline" data-height="400" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/fritzeneletronicos/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/fritzeneletronicos/">FritzenLab</a></blockquote></div>
+		<br>
+		<a class="twitter-timeline" data-height="400" href="https://twitter.com/TheFritzenMaker">Tweets by TheFritzenMaker</a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+		
+	</div>
+	<div class="box bottomBox">Developed by <b>Clovis Fritzen</b> in 07/2017, using HTML + CSS + Javascript and hosted on this <a href="https://github.com/clovisf/Playing-with-Grid-CSS-layout" target="_blank">GitHub</a></div>
+
+</div>
+
+</body>
+</html>
