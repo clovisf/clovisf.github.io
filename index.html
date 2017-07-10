@@ -27,9 +27,10 @@
 <script>
 function load_home() {
 	document.getElementById("contentContainer").innerHTML='<embed id="contentEmbed" src="homeContent.html"></embed>';
-	document.getElementById("adUnderContent").innerHTML='<embed id="contentEmbed" src="supportMyWork.html"></embed>';
 }
-
+function load_supportMyWork(){
+	document.getElementById("contentContainer").innerHTML='<embed id="contentEmbed" src="supportMyWork.html"></embed>';
+}
 function load_whoIam() {
      document.getElementById("contentContainer").innerHTML='<embed id="contentEmbed" src="whoIam.html"></embed>';
 }
@@ -46,7 +47,7 @@ function load_previousWork() {
 </script>
 <div class="wrapper">
 	<div class="box socialLinksTopMenu">
-		<img src="Clovis-Fritzen-Logo.png" id="logoImg" alt="My profile picture" style="height: 30px; width: 30px; object-fit: contain;">
+		<img src="Clovis-Fritzen-logo.png" id="logoImg" alt="My profile picture" style="height: 30px; width: 30px; object-fit: contain;">
 		<ul>
   		<li><a href="https://www.facebook.com/clovis.fritzen" target="_blank">my Facebook</a></li>
   		<li><a href="https://twitter.com/TheFritzenMaker" target="_blank">my Twitter</a></li>
@@ -55,7 +56,7 @@ function load_previousWork() {
 		</ul>
 	</div>
 	<div class="box logoTopMenu">
-		<img src="Clovis-Fritzen_Profile-pic.jpg" id="logoImg" alt="My profile picture" style="height: 100%; width: 100%; object-fit: contain; float: left;">
+		<img src="Clovis-Fritzen_Profile-pic.jpg" id="logoImg" alt="My profile picture" style="height: 100%; width: 100%; object-fit: contain;">
 	</div>
         <div class="box nameTopMenu">
 	<h1>Profile of Clovis Fritzen</h1>
@@ -68,6 +69,7 @@ function load_previousWork() {
   		<li><a href="#" onclick="load_education()">Education</a></li>
   		<li><a href="#" onclick="load_currentWork()">Current work</a></li>
   		<li><a href="#" onclick="load_previousWork()">Previous work</a></li>
+		<li><a href="#" onclick="load_supportMyWork()">Support My Work</a></li>
 		<li><a href="http://www.FritzenMaker.com" target="_blank">My Blog</a></li>
 		</ul>
 	</div>
@@ -75,7 +77,7 @@ function load_previousWork() {
 	
 	</div>
 	<div class="box contentContainer" id="contentContainer">
-		<!-- <iframe id="iframeContent">Your browser does not suppor IFRAME tag :-(</iframe>	-->
+		test
 	</div>
 	<div class="box socialContentContainer">
 		<p>Here is some CC-free music. Play it! >> </p>
@@ -112,7 +114,7 @@ function load_previousWork() {
 		
 	</div>
 	<div class="box bottomBox">Developed by <b>Clovis Fritzen</b> in 07/2017, using HTML + CSS + Javascript and hosted on this <a href="https://github.com/clovisf/Playing-with-Grid-CSS-layout" target="_blank">GitHub</a>
-	<img src="Clovis-Fritzen-Logo.png" id="logoImg" alt="My logo image, CF" style="height: 32px; width: 32px; object-fit: contain;">
+	<img src="Clovis-Fritzen-logo.png" id="logoImg" alt="My logo image, CF" style="height: 32px; width: 32px; object-fit: contain;">
 	</div>
 
 </div>
